@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+a {
+ text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+body {
+    background-color: #2a2a37;
+    /* color: #c5c9c5; */
+    color: #c8c093 ;
+    margin:auto;
+    max-width: 800px;
+    padding: .2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border-bottom: 2px ;
+    list-style-type: none;
+    /* display: inline; */
+    margin: 0;
+    font-family: "Jetbrains Mono";
+
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+.lastnav {
+    border-right: none;
+}
+
+main {
+    background-color: #363646;
+    max-width: 650px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #e6c384;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #2D4F67;
+    color: #7aa89f;
+    border-radius: 10px;
+  }
+
+nav li {
+    border-right: 1px solid #2D4F67;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+nav ul{
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #54546d;
+    /* background-color: #223249; */
+    /* background-color: #c8c093; */
+    border-radius: 10px;
+}
+
+.selected {
+    /* background-color: #957fb8; */
+    color: #98bb6c;
+    /* background-color: #2D4F67; */
+}
+
+.selecteda {
+    color: #d37e99;
+}
